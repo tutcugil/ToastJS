@@ -3,7 +3,7 @@ Toast message Javascript library
 
 # How to use
 
-1 - Add <b>jquery.toast.js</b> to your project (requires jquery)<br>
+1 - Add <b>toast.min.js</b> to your project (requires jquery)<br>
 2 - Done! Show toast messages! that simple
 
 ```javascript
