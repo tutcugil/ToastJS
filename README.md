@@ -50,6 +50,8 @@ Toast.show({
 });  
 ```
 
+You can show multiple toast messages <b>ToastJS</b> will queue them and show in order
+
 These are default parameters of Toast
 ```javascript
 position    : Toast.POSITION_BOTTOM,
