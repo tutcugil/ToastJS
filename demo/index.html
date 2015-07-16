@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>ToastJS Examples</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lib/jquery.js" type="text/javascript"></script>
+    <script src="lib/toast.min.js" type="text/javascript"></script>
+    <style> body { font-family: sans-serif; } </style>
+    <script>
+        $(document).ready(function(){
+            Toast.show({
+                message  : "This is a <b>Toast</b> message on top",
+                position : Toast.POSITION_TOP 
+            }); 
+            
+            Toast.show({
+                message  : "This is a <b>Toast</b> message on middle",
+                position : Toast.POSITION_MIDDLE 
+            });           
+            
+            Toast.show("This is a <b>Toast</b> message on bottom"); 
+            
+            Toast.show({
+                message  : "This is a long <b>Toast</b> message on bottom",
+                duration : Toast.DURATION_LONG 
+            });  
+            
+            Toast.show({
+                message    : "This is a custom <b>Toast</b> message on bottom with purple background",
+                background : "#630460" 
+            });  
+            
+            Toast.show({
+                message    : "This is a custom <b>Toast</b> message on top right with blue background",
+                background : "#004a80",
+                position   : Toast.POSITION_TOP,
+                align      : Toast.ALIGN_RIGHT
+            });  
+        });
+    </script>
+</head>
+<body></body>
+</html>
